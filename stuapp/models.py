@@ -39,4 +39,4 @@ class Student(models.Model):
     sname = models.CharField(max_length=30)
 
 class Clazz(models.Model):
-    Cname=models.CharField(max_length=30)
+    cname=models.CharField(max_length=50)
